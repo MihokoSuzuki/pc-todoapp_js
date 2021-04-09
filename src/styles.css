@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+button:hover,
+input:hover {
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+.wrap {
+  width: 400px;
+  margin: 20px auto;
+}
+
+.input-area {
+  background: #c1ffff;
+  padding: 10px;
+  widows: 400px;
+}
+
+.incomplete-area {
+  background: #f2f2f2;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.complete-area {
+  background: #f2f2f2;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+}
